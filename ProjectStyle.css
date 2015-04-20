@@ -1,0 +1,51 @@
+/* This is a CSS comment */ 
+
+ 
+*{   
+   /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box; 
+*/
+    box-sizing: border-box;
+} 
+
+body {
+  padding: 20px 10px;
+  font-family: Sans-serif;
+  max-width: 2000px;
+  margin: 0 auto; 
+  /* for top and bottom margins, auto for auto adjust. Use this style for the main body.  */
+}
+
+.lesson {    
+
+/*   Use flex display to display vertical  */
+
+  display: flex; 
+ 
+/* Settings below for background and borders. */
+	background-color: teal;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+.Concepts { 
+  background-color: #DFEAF1;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	color: #F60; 
+}
+
+
+h2 {
+	text-align: left;
+  color: brown;
+}
